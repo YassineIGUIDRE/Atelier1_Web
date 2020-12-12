@@ -1,0 +1,111 @@
+html{
+    display: block;
+}
+body{
+    display: block; 
+    width: 100%;
+    background-image: url('magasin.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    background-color: rgba(47,45,50,1);
+    width: 100%;
+    height: 6em;
+    margin-left: -8px;
+    margin-top:-8px;   
+}
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50%;
+    margin-left: 3em;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 4em;
+}
+
+nav li {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{
+    height: 60px;
+}
+
+.logo img{
+    margin-right: 13em;
+    margin-top: 1em;
+    height: 100%;
+}
+
+article{
+    display: block;
+    width: 36em;
+    height: 40em;
+    margin-top: 3em;
+    margin-left: 3em;
+    background-color: rgba(255,255,255,.8);
+}
+
+.title{
+    padding-top: 3em;
+    padding-left: 1em;
+    font-size: 2em;
+}
+
+article p{
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-right: 2em
+}
+
+.date{
+    float: left;
+    width: 14em;
+    height: 10em;
+    background-color: whitesmoke;
+    margin-top: 3em;
+    margin-left: 2em;
+}
+svg{
+    padding-left: 5.5em;
+}
+
+.titleDate{
+    padding-top: 1em;
+    padding-left: 4.5em;
+    padding-bottom: 1em;
+}
+.textDate{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.alert{
+    float: right;
+    width: 14em;
+    height: 10em;
+    background-color: burlywood;
+    margin-top: 3em;
+    margin-right: 2em;
+}
+
+.textAlert{
+    padding-top: 3em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
